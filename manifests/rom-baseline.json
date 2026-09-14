@@ -1,0 +1,45 @@
+{
+  "file_name": "Pokemon.Black.Version.EUR.NDS-SweeTnDs.nds",
+  "size_bytes": 268435456,
+  "crc32": "E2BEE619",
+  "md5": "F45FD94BB761721E30BD3A0A4FDE124A",
+  "sha1": "A68B3BEDF5C1E53556E41E59CDF396C20B331896",
+  "sha256": "2E40416B8E8183D936084C7BE0ADEAAB4FA3F786A68F90D7291AB77D340F0C1D",
+  "header": {
+    "internal_title": "POKEMON B",
+    "game_code": "IRBO",
+    "maker_code": "01",
+    "unit_code": 2,
+    "device_capacity": 11,
+    "revision": 0,
+    "header_size": 16384,
+    "used_rom_size": 205229568
+  },
+  "arm9": {
+    "rom_offset": 16384,
+    "entry_address": 33572864,
+    "ram_address": 33570816,
+    "size": 456856
+  },
+  "arm7": {
+    "rom_offset": 2915840,
+    "entry_address": 37224448,
+    "ram_address": 37224448,
+    "size": 167812
+  },
+  "tables": {
+    "fnt_offset": 3083776,
+    "fnt_size": 1040,
+    "fat_offset": 3085312,
+    "fat_size": 3872,
+    "arm9_overlay_offset": 473600,
+    "arm9_overlay_size": 7584,
+    "arm7_overlay_offset": 0,
+    "arm7_overlay_size": 0
+  },
+  "counts": {
+    "fat_entries": 484,
+    "named_nitrofs_files": 247,
+    "arm9_overlays": 237
+  }
+}
