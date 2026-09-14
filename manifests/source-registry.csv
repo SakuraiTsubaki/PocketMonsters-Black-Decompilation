@@ -1,0 +1,50 @@
+id,class,name,url,scope,state,evidence_role,notes
+OFF-JP-BW-NIN,official,Nintendo Japan Black/White,https://www.nintendo.co.jp/ds/irbj/index.html,BW product and release information,Registered,Official primary,Japanese baseline source
+OFF-JP-BW-PKM,official,Pokemon.co.jp Black/White,https://www.pokemon.co.jp/series/bw/,BW official site and child pages,Enumerating,Official primary,Enumerate sitemap news systems communication PGL videos
+OFF-JP-B2W2-NIN,official,Nintendo Japan Black2/White2,https://www.nintendo.co.jp/ds/irej/index.html,B2W2 product and release information,Registered,Official primary,Japanese sequel baseline source
+OFF-JP-B2W2-PKM,official,Pokemon.co.jp Black2/White2,https://www.pokemon.co.jp/ex/b2w2/,B2W2 official site and child pages,Enumerating,Official primary,Enumerate news product systems downloadable software
+OFF-KR-BW,official,Pokemon Korea Black/White,https://pokemonkorea.co.kr/game/view/5236,Korean BW product and localized feature information,Registered,Official primary,Korean regional baseline lead
+OFF-KR-B2W2,official,Pokemon Korea Black2/White2,https://pokemonkorea.co.kr/game/view/5237,Korean B2W2 product and localized feature information,Registered,Official primary,Korean regional baseline lead
+OFF-US-MANUALS,official,Nintendo of America DS manuals,https://en-americas-support.nintendo.com/app/answers/detail/a_id/16905/,Official instruction booklets,Enumerating,Official primary,Enumerate all four game manuals and languages
+OFF-WFC-US,official,Nintendo US Wi-Fi shutdown,https://en-americas-support.nintendo.com/app/answers/detail/a_id/6026/,Nintendo Wi-Fi Connection termination,Registered,Official primary,Historical online service endpoint
+OFF-WFC-JP,official,Nintendo Japan Wi-Fi shutdown,https://support.nintendo.com/jp/information/2014/0227.html,Nintendo Wi-Fi Connection termination,Registered,Official primary,Japanese service history
+OFF-WFC-EU,official,Nintendo UK Wi-Fi shutdown,https://www.nintendo.com/en-gb/News/2014/February/Termination-of-Nintendo-Wi-Fi-Connection-Service-for-Nintendo-DS-DSi-and-Wii-Software-859922.html,Nintendo Wi-Fi Connection termination,Registered,Official primary,European service history
+ARCH-WAYBACK,preservation,Internet Archive Wayback Machine,https://web.archive.org/,Dead official sites PGL Dream World campaigns manuals media,Enumerating,Preservation,Record original URL and capture timestamp per item
+PP-EVENT5,preservation,Project Pokemon Generation 5 Event Gallery,https://projectpokemon.org/home/files/category/4-generation-5/,Gen V Wonder Cards and event Pokemon,Enumerating,Preservation,Enumerate every language subcategory and file
+PP-DW,preservation,Project Pokemon Dream World,https://projectpokemon.org/home/files/category/8-dream-world/,Dream World Pokemon files and metadata,Enumerating,Preservation,Enumerate English Japanese Korean subcategories
+PP-CGEAR,preservation,Project Pokemon C-Gear Skins,https://projectpokemon.org/home/files/category/48-c-gear-skins/,C-Gear downloadable skins,Enumerating,Preservation,Currently indexed as 46 files; enumerate all
+PP-EVENT-TREE,preservation,Project Pokemon Event Gallery categories,https://projectpokemon.org/home/files/categories/,Pokedex skins Musicals PWT and related DLC,Enumerating,Preservation,Enumerate each Gen V downloadable-content branch
+PP-GEN5-TUT,technical,Project Pokemon Gen 5 Save Tutorials,https://projectpokemon.org/home/tutorials/save-editing/gen-5/,Entralink Dream World PWT C-Gear save workflows,Enumerating,Reverse engineering,Trace tools and underlying structures
+PP-SAVETOOL,technical,Generation 5 Save Tool,https://projectpokemon.org/home/files/file/649-generation-5-save-tool/,BW and B2W2 save structures,Registered,Direct technical,Entralink Hidden Grotto Join Avenue Key Medal Memory Link 3DS Link
+PP-B2W2-ROM,technical,B2W2 General ROM Info,https://projectpokemon.org/home/forums/topic/22629-b2w2-general-rom-info/,B2W2 NARC paths and format notes,Registered,Reverse engineering,High-value historical technical source
+PP-SAVE-2024,technical,B2W2 Save Structure update,https://projectpokemon.org/home/forums/topic/65609-updating-b2w2-save-structure-documentation/,Later B2W2 save block discoveries,Registered,Reverse engineering,Record discovered offsets with provenance
+PP-EVENT-CONTRIB,preservation,Gen I-V Event Contributions thread,https://projectpokemon.org/home/forums/topic/37431-gen-i-v-event-contributions-thread/,Gen V DLC server-format preservation and reconstruction,Enumerating,Preservation,Contains server-format C-Gear Pokedex Musical PWT discussion
+PP-RAWDB,technical,Project Pokemon RawDB,https://projectpokemon.org/rawdb/,Public NARC and file indexes,Enumerating,Direct technical,Enumerate all available Gen V targets and archive members
+GH-PPRE,code,PPRE,https://github.com/projectpokemon/PPRE,Historic Gen IV-V editor and path mappings,Enumerating,Direct technical,Known path conflicts must remain recorded
+GH-PKHEX,code,PKHeX,https://github.com/kwsch/PKHeX,PK5 PGF save legality event structures,Enumerating,Direct technical,Enumerate Gen V classes files tests and history
+GH-BWTOOL,code,BW_tool,https://github.com/suloku/BW_tool,Gen V save structures and special systems,Registered,Direct technical,Source implementation evidence
+GH-PKMDS,code,PKMDS Save Editor,https://github.com/codemonkey85/PKMDS-Save-Editor,Gen V save and Pokemon structures,Registered,Direct technical,Historical implementation
+GH-TRAINER,code,TrainerTyrant,https://github.com/ThirdLemon/TrainerTyrant,Trainer and learnset structures,Registered,Direct technical,BW versus B2W2 path evidence
+GH-SAK,code,SwissArmyKnife,https://github.com/PlatinumMaster/SwissArmyKnife,Map text scripts zones encounters,Enumerating,Direct technical,B2W2 strongest support; BW partial
+GH-FROST,code,FrostsGen5Editor,https://github.com/FrostFalcon/FrostsGen5Editor,General Gen V ROM editing and format implementations,Enumerating,Direct technical,Includes AI scripts overlays graphics text and more
+GH-CTRMAP,code,CTRMap-CE,https://github.com/ds-pokemon-hacking/CTRMap-CE,Gen V map and level editing framework,Enumerating,Direct technical,Enumerate plugins/submodules relevant to BW/B2W2
+GH-ANIMA,code,AnimaEngine,https://github.com/KillDaWill/AnimaEngine,Gen V battle sprite reconstruction,Enumerating,Direct technical,Pokegra a/0/0/4 and Nitro graphics
+GH-PDSMS,code,Pokemon DS Map Studio,https://github.com/Trifindo/Pokemon-DS-Map-Studio,Gen IV-V map model creation pipeline,Registered,Direct technical,Useful for verified map model formats
+GH-ANDT,code,ANDT,https://github.com/javierhimura/ANDT,Historic Gen IV-V-VI editor code,Enumerating,Direct technical,Trace inherited format implementations and credits
+GH-NDSPY,infrastructure,ndspy,https://github.com/RoadrunnerWMC/ndspy,Nintendo DS ROM NitroFS NARC and Nitro formats,Enumerating,Direct technical,Platform-level format evidence
+GH-NARC,infrastructure,narc,https://github.com/lhearachel/narc,NARC implementation and docs,Registered,Direct technical,Archived repository as of 2026
+GH-TINKE,infrastructure,Tinke,https://github.com/pleonex/tinke,Nitro resources and containers,Enumerating,Direct technical,Historical general DS tool
+GH-TINKEDSI,infrastructure,TinkeDSi,https://github.com/R-YaTian/TinkeDSi,DSi-enhanced ROM/resource handling,Enumerating,Direct technical,Important for Gen V DSi header preservation
+DSPKM-DOC,technical,DS Pokemon Hacking documentation,https://ds-pokemon-hacking.github.io/docs/,Technical guides maps scripts music and tools,Enumerating,Reverse engineering,Enumerate all Gen V-specific guides
+TCRF,development,The Cutting Room Floor,https://tcrf.net/,Unused debug regional prerelease prototype material,Blocked,Secondary/Preservation,Direct crawling restricted; use indexed and archived evidence
+DATACRYSTAL,development,Data Crystal,https://datacrystal.tcrf.net/,ROM hacking knowledge index,Enumerating,Secondary reference,Verify actual Gen V coverage instead of assuming
+BULBAPEDIA,secondary,Bulbapedia,https://bulbapedia.bulbagarden.net/,Release localization mechanics maps events differences,Enumerating,Secondary reference,Use for discovery and cross-checking
+SEREBII,secondary,Serebii,https://www.serebii.net/blackwhite/,Events mechanics locations distributions and historical coverage,Enumerating,Secondary reference,Enumerate BW and B2W2 sections
+POKEDB,secondary,Pokemon Database,https://pokemondb.net/,Pokemon move game and release reference,Registered,Secondary reference,Cross-check only
+GAMEFAQS,secondary,GameFAQs release data,https://gamefaqs.gamespot.com/,Regional titles product codes dates ratings,Enumerating,Secondary reference,Verify against primary or catalog evidence
+NOINTRO,catalog,No-Intro DAT-o-MATIC,unknown,Retail build revision and public hash metadata,Candidate,Preservation,Verify public access URL and enumerate without ROM distribution
+PHYSICAL-SCANS,preservation,Physical box cart manual scans,unknown,Region/revision identity and packaging,Enumerating,Preservation,Record scan provenance and visible revision identifiers
+GUIDES,official-secondary,Official/authorized strategy guides,unknown,Game data maps mechanics and contemporary documentation,Candidate,Official/secondary,Enumerate editions regions and revisions
+MAGAZINES,development,Contemporary magazines and press,unknown,Prerelease screenshots interviews announcements,Candidate,Preservation,Record issue date publisher and provenance
+SOUNDTRACK,official,Official soundtrack releases,unknown,Track names sequencing and audio reference,Candidate,Official primary,Enumerate BW and B2W2 soundtrack metadata
+BUG-RESEARCH,technical,Bug and glitch research,unknown,Reproduction conditions region/revision fixes,Candidate,Reverse engineering,Separate real hardware from emulator-only behavior
