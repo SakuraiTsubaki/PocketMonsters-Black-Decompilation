@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "reference_role": "project_clean_reference",
+  "game": "Pokémon Black Version",
+  "source_filename": "Pokemon.Black.Version.EUR.NDS-SweeTnDs.nds",
+  "size_bytes": 268435456,
+  "crc32": "E2BEE619",
+  "md5": "F45FD94BB761721E30BD3A0A4FDE124A",
+  "sha1": "A68B3BEDF5C1E53556E41E59CDF396C20B331896",
+  "sha256": "2E40416B8E8183D936084C7BE0ADEAAB4FA3F786A68F90D7291AB77D340F0C1D",
+  "nds_header": {"internal_title":"POKEMON B","game_code":"IRBO","revision":0,"unit_code":2},
+  "filesystem": {"fat_entries":484,"named_nitrofs_files":247,"narc_files":237,"arm9_overlays":237},
+  "handling": {"rom_binary_committed":false,"source_access":"read-only","derived_outputs_may_be_committed":true},
+  "provenance_status": "exact local project reference; archival dump provenance not asserted by this manifest",
+  "paired_reference": "Pokémon White Version EUR project reference"
+}
