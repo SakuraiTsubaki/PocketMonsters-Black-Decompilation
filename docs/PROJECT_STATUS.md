@@ -1,6 +1,6 @@
 # Project Status
 
-**Current stage:** Public-source survey and reconstruction baseline
+**Current stage:** Exhaustive public-source census and reconstruction baseline
 
 This project assumes no local retail ROM is available. Work therefore begins from publicly accessible official material, technical implementations, preservation archives, reverse-engineering research, historical web captures, and independently maintained references.
 
@@ -11,11 +11,27 @@ This project assumes no local retail ROM is available. Work therefore begins fro
 - Public-reference hashes and archive counts are not project-level `Matched` evidence.
 - Unknown values remain `TBD`/`Unknown`.
 - GitHub is the authoritative project record; retail ROM binaries remain excluded.
+- **Subsystem reconstruction does not replace the source census. Source classes must continue to be enumerated until the public-source registry is closed category by category.**
 
-## Progress
+## Source-census priority
+
+- [x] Create exhaustive source-class registry (`docs/SOURCE_REGISTRY.md`).
+- [x] Add machine-readable source inventory (`manifests/source-registry.csv`).
+- [x] Register official JP/KR/US/EU/AU starting points, manuals and service-history sources.
+- [x] Register preservation roots for Gen V events, Dream World, C-Gear, Pokédex skins, Musicals, PWT and server-format DLC.
+- [x] Register major public Gen V technical/code projects and Nintendo DS infrastructure tools.
+- [x] Register unused/prerelease, secondary-reference, catalog/revision, physical-scan, guide, magazine, soundtrack and bug-research source classes.
+- [ ] Enumerate every relevant child page/file/release/record under every registered source root.
+- [ ] Enumerate Internet Archive/Wayback captures for dead official and regional sites.
+- [ ] Enumerate every official event/distribution/service notice by region and language.
+- [ ] Enumerate historical tools/research whose original hosting has disappeared.
+- [ ] Resolve blocked TCRF material through indexed or archived evidence without inventing inaccessible content.
+- [ ] Do not mark the public-source survey complete while any mandatory class remains `Enumerating`, `Candidate`, `Blocked`, or otherwise unresolved.
+
+## Reconstruction progress
 
 - [x] Establish public-source-first research methodology.
-- [x] Create initial public source inventory (`docs/PUBLIC_SOURCE_SURVEY.md`).
+- [x] Create initial public source survey (`docs/PUBLIC_SOURCE_SURVEY.md`).
 - [x] Seed Japanese baseline and major regional/language targets in `docs/VERSIONS.md`.
 - [x] Create Japanese-baseline regional comparison ledger (`docs/REGIONAL_SURVEY_MATRIX.md`).
 - [x] Seed evidence-backed NitroFS/NARC path catalog (`docs/NARC_PATH_CATALOG.md`).
@@ -46,8 +62,8 @@ Repository-standard verification remains `Unverified` → `Observed` → `Reprod
 
 ## Next milestones
 
-1. Complete the Black archive census and identify the Raw DB source build.
-2. Expand each known NARC from path-level identity into file/record format documentation.
-3. Start with high-value data families: personal data, moves, evolutions/learnsets, trainers, encounters, text, and scripts.
-4. Continue regional comparison from product identity into actual localization/technical differences.
-5. Keep `VERSIONS.md`, regional matrix, NARC catalog, manifests, and this status synchronized.
+1. Enumerate the registered public-source universe source-by-source and file/page-by-file/page before narrowing the project to any one subsystem.
+2. Expand official Japanese material first, then enumerate every regional/language official and archival branch.
+3. Enumerate preservation/event/DLC collections and public code repositories at item/file level.
+4. Continue the Black archive census and identify the Raw DB source build in parallel without treating it as the whole survey.
+5. Keep `SOURCE_REGISTRY.md`, source manifest, versions, regional matrix, NARC catalog and this status synchronized.
