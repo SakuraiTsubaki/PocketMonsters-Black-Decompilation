@@ -10,6 +10,7 @@ This directory is the central documentation portal for the decompilation project
 | [Roadmap](ROADMAP.md) | Recommended project phases from target definition through reproducible reconstruction |
 | [Version Coverage](VERSIONS.md) | Regions, languages, revisions, builds, public-reference hashes, and support status |
 | [Source Registry](SOURCE_REGISTRY.md) | Exhaustive census of official, archival, technical, preservation, code, catalog, prerelease, secondary, event and service-history sources |
+| [Japanese Official Source Census](OFFICIAL_JP_SOURCE_CENSUS.md) | Page-level Japanese official Nintendo/Pokémon source census and explicitly open branches |
 | [Public Source Survey](PUBLIC_SOURCE_SURVEY.md) | No-local-ROM research premise, source classes, Japanese-baseline policy, and public-source workstreams |
 | [Regional Survey Matrix](REGIONAL_SURVEY_MATRIX.md) | Japanese-baseline-to-region build inventory and difference tracking |
 | [NARC / NitroFS Path Catalog](NARC_PATH_CATALOG.md) | Evidence-backed internal path/role catalog and cross-game path movement |
@@ -24,6 +25,8 @@ This directory is the central documentation portal for the decompilation project
 ## Active machine-readable inventories
 
 - `../manifests/source-registry.csv` — public source roots/classes, scope, evidence role and enumeration status.
+- `../manifests/official-jp-sources.csv` — page-level Japanese official source inventory for the currently enumerated Generation V official branches.
+- `../manifests/official-jp-bw-nintendo-topics.csv` — Nintendo BW `File No.001–027` census with unresolved gaps kept explicit.
 - `../manifests/narc-paths.csv` — current evidence-backed NARC/NitroFS role inventory. Unknown roles and unverified target-specific counts stay explicit rather than being inferred.
 
 ## Research areas
@@ -33,13 +36,14 @@ As verified work becomes concrete, documentation may grow into areas such as `ar
 ## Recommended documentation flow
 
 1. **Enumerate the public source universe first** in `SOURCE_REGISTRY.md` / `../manifests/source-registry.csv`; a category is not complete because one useful source was found.
-2. Identify the exact target or unresolved target question in `VERSIONS.md` and `REGIONAL_SURVEY_MATRIX.md`.
-3. Register assumptions and research method under `PUBLIC_SOURCE_SURVEY.md` and `RESEARCH_GUIDE.md`.
-4. Record internal paths/formats only at the confidence level supported by evidence; preserve source conflicts.
-5. Reconstruct source, data, or assets following `PROJECT_STANDARDS.md` and `REPOSITORY_STRUCTURE.md`.
-6. For asset work, follow `ASSET_WORKFLOW.md` and register material in `../manifests/`.
-7. Apply the validation levels defined in `VERIFICATION.md`.
-8. Update `PROJECT_STATUS.md` and `ROADMAP.md` when meaningful milestones are reached.
+2. Enumerate Japanese official pages/assets/notices in `OFFICIAL_JP_SOURCE_CENSUS.md` and the corresponding manifests before treating the Japanese baseline source branch as closed.
+3. Identify the exact target or unresolved target question in `VERSIONS.md` and `REGIONAL_SURVEY_MATRIX.md`.
+4. Register assumptions and research method under `PUBLIC_SOURCE_SURVEY.md` and `RESEARCH_GUIDE.md`.
+5. Record internal paths/formats only at the confidence level supported by evidence; preserve source conflicts.
+6. Reconstruct source, data, or assets following `PROJECT_STANDARDS.md` and `REPOSITORY_STRUCTURE.md`.
+7. For asset work, follow `ASSET_WORKFLOW.md` and register material in `../manifests/`.
+8. Apply the validation levels defined in `VERIFICATION.md`.
+9. Update `PROJECT_STATUS.md` and `ROADMAP.md` when meaningful milestones are reached.
 
 ## Documentation rules
 
