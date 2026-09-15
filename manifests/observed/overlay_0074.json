@@ -14,12 +14,22 @@
     "static_init_end": "0x021F56FC",
     "compressed_size": 240,
     "compressed_sha256": "2582d562dd1fb7671177d7797c2fe486d3e2f471f459a4bc50428383ea8f056d",
+    "decompressed_sha1": "bfad18fd76010ac8c5cbb16d7c653a4317d808f5",
     "decompressed_sha256": "d0844237394f136c068082ccfc807fa9b52ab43b8bc40469c1102152c456ec2b"
+  },
+  "clean_black_crosscheck": {
+    "repository": "squiddonaut/pokeblack",
+    "artifact": "build/black.us/OVY_74.sbin",
+    "link_address": "0x021F54E0",
+    "sha1": "bfad18fd76010ac8c5cbb16d7c653a4317d808f5",
+    "matches_observed_decompressed_payload": true,
+    "notes": "The public clean-Black build manifest reports the same SHA-1 for OVY_74.sbin, independently confirming that this NDS-mode module is unchanged between the supplied underdump and the preservation-clean Black target."
   },
   "reconstruction": {
     "source": "src/overlay/overlay_0074.s",
     "linker_script": "linker/overlays/overlay_0074.ld",
     "output_size": 544,
+    "output_sha1": "bfad18fd76010ac8c5cbb16d7c653a4317d808f5",
     "output_sha256": "d0844237394f136c068082ccfc807fa9b52ab43b8bc40469c1102152c456ec2b",
     "byte_match": true,
     "toolchain_observed": {
@@ -42,5 +52,5 @@
     "semantic_identity": "unverified"
   },
   "verification": "Matched",
-  "notes": "Matched against the decompressed overlay payload observed in the supplied IRBO underdump. This does not by itself promote the full ROM input to preservation-clean status. Symbol names are structural/provisional until semantic identity is verified."
+  "notes": "Byte-matched locally and cross-checked against the public preservation-clean Black module hash. This module-level clean match does not promote the supplied full ROM input to preservation-clean status. Symbol names remain structural/provisional until semantic identity is verified."
 }
