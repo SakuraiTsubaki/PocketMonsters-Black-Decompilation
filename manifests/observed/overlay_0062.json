@@ -1,0 +1,28 @@
+{
+  "schema": "gen5-overlay-reconstruction-v1",
+  "target": "Pokemon Black Version IRBO Rev 0 supplied input",
+  "overlay_id": 62,
+  "file_id": 62,
+  "load_address": "0x021F36C0",
+  "ram_size": 224,
+  "bss_size": 0,
+  "static_init_start": "0x021F379C",
+  "static_init_end": "0x021F37A0",
+  "raw_file_size": 204,
+  "backwards_compressed": true,
+  "raw_sha256": "66683711413b3407082178247f924aad67f0333c8d8cd83d082313f427a0afe0",
+  "expanded_sha256": "111cc74aa76c03e39de1d722c96f294c97a17aafdfac5086619b70518d435b1a",
+  "reconstruction": {
+    "source": "src/overlay/overlay_0062.s",
+    "linker": "linker/overlays/overlay_0062.ld",
+    "architecture": "Thumb",
+    "function_offsets": ["0x00", "0x78", "0x88"],
+    "structured_data_start": "0x94",
+    "rebuilt_expanded_size": 224,
+    "rebuilt_expanded_sha256": "111cc74aa76c03e39de1d722c96f294c97a17aafdfac5086619b70518d435b1a",
+    "expanded_payload_match": true,
+    "raw_compressed_bitstream_rebuilt": false
+  },
+  "verification": "Matched expanded payload",
+  "notes": "Address-based external call symbols and structural data labels are provisional. No semantic subsystem names are claimed yet."
+}
