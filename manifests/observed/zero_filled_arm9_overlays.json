@@ -1,0 +1,35 @@
+{
+  "schema": "gen5-zero-filled-arm9-overlay-set-v1",
+  "verification": "Observed",
+  "classification_note": "Every listed overlay expands to exactly 32 zero bytes in both supplied Black and White inputs. This records payload content only and does not establish runtime reachability, intent, unused status, dummy status, or debug status.",
+  "count": 57,
+  "overlay_ids": [5, 66, 84, 85, 86, 87, 89, 108, 113, 126, 130, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 169, 189, 190, 191, 192, 193, 200, 201, 202, 226, 229, 232, 233, 234, 235, 236],
+  "common": {
+    "ram_size": 32,
+    "bss_size": 0,
+    "raw_file_size": 20,
+    "backwards_compressed": true,
+    "compressed_size_field": 20,
+    "flags_byte": 3,
+    "raw_sha256": "07d1d94d7d3269a1155925f01090a020e40387e8e8998fc3b4a1a3c633ca4d46",
+    "expanded_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+  },
+  "load_address_groups": [
+    {"black_ram_address": "0x021542C0", "white_ram_address": "0x021542E0", "overlay_ids": [5]},
+    {"black_ram_address": "0x02183B60", "white_ram_address": "0x02183B80", "overlay_ids": [66, 84, 86, 87, 138, 190, 191, 192, 202, 229]},
+    {"black_ram_address": "0x021B6100", "white_ram_address": "0x021B6120", "overlay_ids": [85, 113, 130]},
+    {"black_ram_address": "0x021BDA40", "white_ram_address": "0x021BDA80", "overlay_ids": [89]},
+    {"black_ram_address": "0x021BB8C0", "white_ram_address": "0x021BB8E0", "overlay_ids": [108]},
+    {"black_ram_address": "0x021EE920", "white_ram_address": "0x021EE940", "overlay_ids": [126]},
+    {"black_ram_address": "0x02400020", "white_ram_address": "0x02400020", "overlay_ids": [139]},
+    {"black_ram_address": "0x02400040", "white_ram_address": "0x02400040", "overlay_ids": [140, 141, 142]},
+    {"black_ram_address": "0x021F5260", "white_ram_address": "0x021F5280", "overlay_ids": [143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167]},
+    {"black_ram_address": "0x021B95A0", "white_ram_address": "0x021B95C0", "overlay_ids": [169]},
+    {"black_ram_address": "0x0217AE20", "white_ram_address": "0x0217AE40", "overlay_ids": [189]},
+    {"black_ram_address": "0x021EE740", "white_ram_address": "0x021EE760", "overlay_ids": [193]},
+    {"black_ram_address": "0x021F57E0", "white_ram_address": "0x021F5800", "overlay_ids": [200]},
+    {"black_ram_address": "0x021B96A0", "white_ram_address": "0x021B96C0", "overlay_ids": [201]},
+    {"black_ram_address": "0x0220BC60", "white_ram_address": "0x0220BC80", "overlay_ids": [226]},
+    {"black_ram_address": "0x02212560", "white_ram_address": "0x02212580", "overlay_ids": [232, 233, 234, 235, 236]}
+  ]
+}
