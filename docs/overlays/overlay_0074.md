@@ -2,7 +2,7 @@
 
 ## Status
 
-**Matched** against the decompressed overlay payload observed in the supplied IRBO revision-0 input.
+**Matched** byte-for-byte against the decompressed overlay payload observed in the supplied IRBO revision-0 input, and independently cross-checked against the preservation-clean Black build manifest from `squiddonaut/pokeblack`.
 
 This is a match for one executable unit only. The supplied full ROM remains catalogued separately as a known underdump.
 
@@ -43,8 +43,13 @@ Both resolve to `overlay_load + 0x10`.
 
 ## Match verification
 
-The committed assembly was assembled in Thumb mode, linked at the observed address, converted to a flat binary, and compared byte-for-byte with the decompressed retail overlay payload.
+The committed assembly was assembled in Thumb mode, linked at the observed address, converted to a flat binary, and compared byte-for-byte with the decompressed overlay payload.
 
-Expected/rebuilt SHA-256:
+Local expected/rebuilt hashes:
 
-`d0844237394f136c068082ccfc807fa9b52ab43b8bc40469c1102152c456ec2b`
+- SHA-1: `bfad18fd76010ac8c5cbb16d7c653a4317d808f5`
+- SHA-256: `d0844237394f136c068082ccfc807fa9b52ab43b8bc40469c1102152c456ec2b`
+
+The public `squiddonaut/pokeblack` clean-build manifest records `build/black.us/OVY_74.sbin` with the same SHA-1, `bfad18fd76010ac8c5cbb16d7c653a4317d808f5`, and its linker specification places `OVY_74` at the same `0x021F54E0` address. Its current assembly representation is a raw-byte reconstruction, while this repository records the verified Thumb accessor and typed 32-bit table structure.
+
+Therefore overlay 74 is clean-target matched at the module level even though the supplied full-ROM image is not preservation-clean.
