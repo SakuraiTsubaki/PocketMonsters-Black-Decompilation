@@ -1,0 +1,19 @@
+ENTRY(Overlay062_Function0)
+sub_02188C80 = 0x02188C80;
+sub_020120F4 = 0x020120F4;
+sub_02012EC4 = 0x02012EC4;
+sub_0200B3A4 = 0x0200B3A4;
+sub_02188D2C = 0x02188D2C;
+sub_021BE760 = 0x021BE760;
+sub_021BE480 = 0x021BE480;
+sub_021BE4A4 = 0x021BE4A4;
+sub_021BE700 = 0x021BE700;
+sub_021BE4B4 = 0x021BE4B4;
+sub_021BE418 = 0x021BE418;
+sub_021BE580 = 0x021BE580;
+SECTIONS
+{
+  . = 0x021F36C0;
+  .text : { *(.text.overlay_0062) }
+  /DISCARD/ : { *(.ARM.attributes) *(.comment) *(.note*) }
+}
