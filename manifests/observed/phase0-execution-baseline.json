@@ -1,0 +1,65 @@
+{
+  "schema": "gen5-decompilation-phase0-baseline-v1",
+  "target": {
+    "title": "Pokemon Black Version",
+    "game_code": "IRBO",
+    "region": "USA/Europe",
+    "language": "English",
+    "revision": 0,
+    "verification": "Observed"
+  },
+  "input": {
+    "size": 268435456,
+    "md5": "f45fd94bb761721e30bd3a0a4fde124a",
+    "sha1": "a68b3bedf5c1e53556e41e59cdf396c20b331896",
+    "sha256": "2e40416b8e8183d936084c7be0adeaab4fa3f786a68f90d7291ab77d340f0c1d",
+    "preservation_status": "known-underdump"
+  },
+  "nds": {
+    "arm9": {"rom_offset": 16384, "size": 456856},
+    "arm7": {"rom_offset": 2915840, "size": 167812},
+    "fnt": {"offset": 3083776, "size": 1040},
+    "fat": {"offset": 3085312, "size": 3872},
+    "arm9_overlay_table": {"offset": 473600, "size": 7584},
+    "arm7_overlay_table": {"offset": 0, "size": 0}
+  },
+  "inventory": {
+    "fat_entries": 484,
+    "named_fnt_files": 247,
+    "directories": 31,
+    "arm9_overlays": 237,
+    "arm7_overlays": 0,
+    "backwards_compressed_arm9_overlays": 229,
+    "uncompressed_arm9_overlays": 8,
+    "overlay_expanded_size_mismatches": 0
+  },
+  "black_white_comparison": {
+    "fat_entries": 484,
+    "byte_identical_entries": 299,
+    "different_entries": 185,
+    "different_named_entries": 5,
+    "different_overlay_entries": 180,
+    "expanded_identical_overlays": 57,
+    "expanded_different_overlays": 180,
+    "overlay_load_address_differences": 232,
+    "compression_status_difference_overlay_ids": [3],
+    "arm7_byte_identical": true,
+    "arm9_byte_identical": false,
+    "different_named_paths": [
+      "a/0/2/6",
+      "a/0/8/6",
+      "a/1/2/6",
+      "a/1/7/8",
+      "a/2/3/1"
+    ]
+  },
+  "reconstruction": {
+    "first_matched_unit": "ARM9 overlay 74",
+    "next_scope": "ARM9 overlays 0..236 plus ARM9 main executable"
+  },
+  "policy": {
+    "retail_rom_binary_in_git": false,
+    "observed_underdump_not_equal_to_canonical_clean_target": true,
+    "all_rom_derived_claims_require_target_identity": true
+  }
+}
