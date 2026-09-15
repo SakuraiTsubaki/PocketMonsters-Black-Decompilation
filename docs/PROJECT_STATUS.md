@@ -1,8 +1,8 @@
 # Project Status
 
-**Current stage:** Exhaustive public-source census and reconstruction baseline
+**Current stage:** Exhaustive public-source census and direct raw-input reconstruction baseline
 
-This project assumes no local retail ROM is available. Work therefore begins from publicly accessible official material, technical implementations, preservation archives, reverse-engineering research, historical web captures, and independently maintained references.
+A local Pokémon Black EUR raw input is available for immutable, read-only structural analysis. It is not the canonical-clean build target and its identity remains separate. Publicly accessible official material, technical implementations, preservation archives, reverse-engineering research, historical web captures, and independently maintained references remain mandatory for Japanese-first and all-region coverage.
 
 ## Baseline policy
 
@@ -40,7 +40,7 @@ This project assumes no local retail ROM is available. Work therefore begins fro
 - [ ] Complete every official territory, packaging, language, and revision target.
 - [ ] Identify the exact region/revision represented by the public Black Raw DB tree.
 - [ ] Import the complete Raw DB archive census while preserving unknown roles.
-- [ ] Document executable and overlay layout from public technical evidence.
+- [x] Inventory the local raw input's NDS/TWL executable, FAT/FNT, 237 ARM9 overlays, 237 NARCs, and 54,054 NARC members.\n- [ ] Promote executable and overlay semantics through canonical-clean and public technical evidence.
 - [ ] Map symbols, functions, and major subsystems where public evidence permits.
 - [ ] Document game-data formats and resource containers at record/field level.
 - [ ] Reconstruct scripts, events, flags, variables, and behavior.
@@ -52,7 +52,7 @@ This project assumes no local retail ROM is available. Work therefore begins fro
 
 ## Current technical baseline
 
-Public sources currently corroborate key Black paths for text, personal data, learnsets, evolutions, moves, items, scripts, trainers, overworld/event data, and encounters. Project Pokémon Raw DB enumerates a large Black NARC census, but its exact source build must be established before it is treated as the Japanese baseline.
+Direct raw-input inspection now establishes 484 FAT entries, 31 FNT directories, 247 named NitroFS files, 237 ARM9 overlays (229 marked compressed), 237 NARCs, and 54,054 NARC members. These are `Observed raw input` results, not canonical-clean matches. Public sources currently corroborate key Black paths for text, personal data, learnsets, evolutions, moves, items, scripts, trainers, overworld/event data, and encounters. Project Pokémon Raw DB enumerates a large Black NARC census, but its exact source build must be established before it is treated as the Japanese baseline.
 
 The first structural comparison already proves important subsystem relocation between BW and B2W2: scripts, trainer metadata/parties, overworld events, and encounters move to different archive paths in the sequels.
 
