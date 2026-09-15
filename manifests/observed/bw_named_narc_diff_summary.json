@@ -1,0 +1,12 @@
+{
+  "schema": "gen5-bw-named-narc-diff-summary-v1",
+  "verification": "Observed",
+  "note": "The five named NitroFS files differing between the supplied Black and White inputs are parsed as NARC and compared member-by-member. Equality means byte-identical member SHA-256. Semantic identification is intentionally separate.",
+  "archives": [
+    {"path":"a/0/2/6","file_id":268,"black_archive_size":22228,"white_archive_size":22528,"black_members":15,"white_members":15,"identical_members":7,"different_members":8,"different_indices":[0,1,2,3,4,6,7,8]},
+    {"path":"a/0/8/6","file_id":328,"black_archive_size":3356,"white_archive_size":3356,"black_members":1,"white_members":1,"identical_members":0,"different_members":1,"different_indices":[0]},
+    {"path":"a/1/2/6","file_id":368,"black_archive_size":35284,"white_archive_size":35284,"black_members":112,"white_members":112,"identical_members":83,"different_members":29,"different_indices":[0,5,6,49,52,53,58,69,71,75,77,79,80,81,82,83,84,95,98,99,100,101,102,104,105,106,107,108,109]},
+    {"path":"a/1/7/8","file_id":420,"black_archive_size":168792,"white_archive_size":168792,"black_members":649,"white_members":649,"identical_members":623,"different_members":26,"different_indices":[10,11,13,14,197,199,366,367,428,429,537,538,545,546,547,548,573,574,575,576,577,578,626,627,628,629]},
+    {"path":"a/2/3/1","file_id":473,"black_archive_size":1208900,"white_archive_size":1210248,"black_members":73,"white_members":73,"identical_members":71,"different_members":2,"different_indices":[1,63]}
+  ]
+}
