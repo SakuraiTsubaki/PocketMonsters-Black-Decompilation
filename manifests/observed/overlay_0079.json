@@ -1,0 +1,33 @@
+{
+  "schema": "gen5-overlay-reconstruction-v1",
+  "target": {"game": "black", "game_code": "IRBO", "rom_version": 0},
+  "overlay": {
+    "overlay_id": 79,
+    "file_id": 79,
+    "ram_address": "0x021F5A80",
+    "ram_size": 256,
+    "bss_size": 0,
+    "static_init_start": "0x021F5B7C",
+    "static_init_end": "0x021F5B80",
+    "file_size": 256,
+    "backwards_compressed": false,
+    "raw_sha256": "9b77869ce15ecdd6207a9d713f3a87800b4d98ae7716fc4ff227b4b4fd45e974",
+    "expanded_sha256": "9b77869ce15ecdd6207a9d713f3a87800b4d98ae7716fc4ff227b4b4fd45e974"
+  },
+  "reconstruction": {
+    "source": "src/overlay/overlay_0079.s",
+    "linker": "linker/overlays/overlay_0079.ld",
+    "rebuilt_size": 256,
+    "rebuilt_sha256": "9b77869ce15ecdd6207a9d713f3a87800b4d98ae7716fc4ff227b4b4fd45e974",
+    "expanded_payload_byte_match": true,
+    "raw_stored_file_byte_match": true,
+    "note": "Overlay 79 is stored uncompressed, so raw stored-file and expanded-payload matching are equivalent for this target."
+  },
+  "structure": {
+    "functions": ["Overlay079_Init", "Overlay079_Setup", "Overlay079_Step0", "Overlay079_Step1"],
+    "config_data_offset": "0xF0",
+    "static_initializer_offset": "0xFC",
+    "semantic_names_provisional": true
+  },
+  "verification": "Matched"
+}
