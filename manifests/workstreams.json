@@ -1,0 +1,36 @@
+{
+  "schema": "gen5-decompilation-workstreams-v1",
+  "project": "Pokemon Generation V",
+  "target": "black",
+  "rom_available_in_current_workspace": true,
+  "policy": {
+    "rom_binaries_in_git": false,
+    "preserve_original_rom_read_only": true,
+    "do_not_equate_zero_filled_with_unused": true,
+    "separate_observed_from_inferred": true
+  },
+  "workstreams": [
+    {"id":"target_identity","status":"observed","scope":"ROM identity, region/language/revision hashes and preservation status"},
+    {"id":"nds_container","status":"observed","scope":"NDS header, ARM9/ARM7, FNT/FAT, overlay tables and address-space layout"},
+    {"id":"executable_reconstruction","status":"active","scope":"ARM9, ARM7 and every overlay: functions, symbols, data, link layout and byte matching"},
+    {"id":"nitrofs_narc","status":"active","scope":"NitroFS path catalog, every NARC/container, member formats and version deltas"},
+    {"id":"pokemon_data","status":"active","scope":"species, forms, stats, types, abilities, hidden abilities, evolution, breeding and acquisition data"},
+    {"id":"moves_battle","status":"active","scope":"moves, targeting, priority, effects, battle engine rules, Triple/Rotation and edge cases"},
+    {"id":"items","status":"active","scope":"items, TM/HM, berries, key items, prices, acquisition and unused item records"},
+    {"id":"encounters","status":"active","scope":"wild/special/static/gift/egg/trade/event encounters with season/time/version conditions"},
+    {"id":"trainers_ai","status":"active","scope":"all trainer classes, parties, moves, held items, AI, rematches and facilities"},
+    {"id":"maps_world","status":"active","scope":"all maps, connections, warps, coordinates, tilesets, seasons, state changes and facilities"},
+    {"id":"scripts_events","status":"active","scope":"scripts, flags, variables, cutscenes, main/sub/daily/repeatable events and branches"},
+    {"id":"text_localization","status":"active","scope":"all text banks, message formats, fonts, glyphs and official region/language differences"},
+    {"id":"graphics","status":"active","scope":"Pokemon/trainer/overworld sprites, animations, icons, tiles, palettes, UI and unused graphics"},
+    {"id":"audio","status":"active","scope":"BGM, SFX, sequence/bank formats, dynamic music and version differences"},
+    {"id":"save_data","status":"active","scope":"save blocks, checksums, records, flags, variables, party/box data and migration continuity"},
+    {"id":"communication_online","status":"active","scope":"C-Gear, IR, wireless, NWC, PGL, Dream World, Entralink, Pass Power and protocol data"},
+    {"id":"distribution_events","status":"active","scope":"Mystery Gift and external distributions by region, period, delivery method and payload metadata"},
+    {"id":"bw2_systems","status":"cross-version-reference-only","scope":"PWT, Pokestar Studios, Join Avenue, Hidden Grotto, Medals, Memory Link, Keys, Funfest, Tower/Treehollow"},
+    {"id":"unused_debug","status":"active","scope":"unused/dummy/debug/test/development remnants with reachability evidence"},
+    {"id":"bugs_revisions","status":"active","scope":"reproducible bugs, glitches, text/graphics errors and region/revision fixes"},
+    {"id":"cross_version","status":"active","scope":"Black vs White and Black2 vs White2 plus BW-to-B2W2 continuity/difference mapping"},
+    {"id":"build_verification","status":"active; matched overlays established","scope":"reproducible extraction/rebuild, hashes, matching levels, CI and regression tests"}
+  ]
+}
