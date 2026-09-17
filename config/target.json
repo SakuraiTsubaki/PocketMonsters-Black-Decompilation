@@ -3,18 +3,28 @@
   "target": "Pocket Monsters Black",
   "platform_family": "Nintendo DS / DSi-enhanced",
   "generation": "Generation V",
-  "identity_status": "supplied_dump_identified_noncanonical",
+  "identity_status": "identified",
   "release": "Pokemon Black Version (English USA/Europe, DSi Enhanced)",
   "region": "USA/Europe English",
   "revision": "Version 1.0 / ROM header revision 0",
+  "hashes": [
+    {
+      "kind": "supplied-analysis-input",
+      "crc32": "E2BEE619",
+      "md5": "f45fd94bb761721e30bd3a0a4fde124a",
+      "sha1": "a68b3bedf5c1e53556e41e59cdf396c20b331896",
+      "sha256": "2e40416b8e8183d936084c7be0adeaab4fa3f786a68f90d7291ab77d340f0c1d"
+    },
+    {
+      "kind": "canonical-clean-reference",
+      "crc32": "4F6E5580",
+      "sha1": "26ad0b9967aa279c4a266ee69f52b9b2332399a5"
+    }
+  ],
   "game_code": "IRBO",
   "supplied_dump": {
     "filename": "Pokemon.Black.Version.EUR.NDS-SweeTnDs.nds",
     "size_bytes": 268435456,
-    "crc32": "E2BEE619",
-    "md5": "f45fd94bb761721e30bd3a0a4fde124a",
-    "sha1": "a68b3bedf5c1e53556e41e59cdf396c20b331896",
-    "sha256": "2e40416b8e8183d936084c7be0adeaab4fa3f786a68f90d7291ab77d340f0c1d",
     "status": "faulty early scene dump; DSi-specific data missing; analysis input only"
   },
   "canonical_reference": {
